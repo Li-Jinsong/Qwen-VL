@@ -471,7 +471,7 @@ Qwen-VL outperforms current SOTA generalist models on multiple VL tasks and has 
 - Qwen-VL achieves the **SOTA** in all above referring expression comprehension benchmarks.
 - Qwen-VL has not been trained on any Chinese grounding data, but it can still generalize to the Chinese Grounding tasks in a zero-shot way by training Chinese Caption data and English Grounding data.
 
-We provide all of the above evaluation scripts for reproducing our experimental results. Please read [eval_mm/EVALUATION.md](eval_mm/EVALUATION.md) for more information.
+We provide all of the above evaluation scripts for reproducing our experimental results. Please read [eval/EVALUATION.md](eval/EVALUATION.md) for more information.
 
 ### Chat evaluation
 
@@ -506,23 +506,23 @@ Qwen-VL-Chat has achieved the best results in both Chinese and English alignment
 
 [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) is a comprehensive evaluation benchmark for multimodal large language models. It measures both perception and cognition abilities on a total of 14 subtasks, including existence, count, position, color, poster, celebrity, scene, landmark, artwork, OCR, commonsense reasoning, numerical calculation, text translation, and code reasoning.
 
-Qwen-VL-Chat achieves SOTAs on both perception and cognition evaluation. See more details on [HERE](eval_mm/mme/EVAL_MME.md).
+Qwen-VL-Chat achieves SOTAs on both perception and cognition evaluation. See more details on [HERE](eval/mme/EVAL_MME.md).
 
 <p align="center">
-    <img src="eval_mm/mme/perception.jpg" width="600"/>
+    <img src="eval/mme/perception.jpg" width="600"/>
 <p>
 <p align="center">
-    <img src="eval_mm/mme/cognition.jpg" width="600"/>
+    <img src="eval/mme/cognition.jpg" width="600"/>
 <p>
 
 #### SEED-Bench
 
-[SEED-Bench](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) is a multimodal benchmark of 19K multiple-choice questions with accurate human annotations for evaluating Multimodal LLMs, covering 12 evaluation dimensions including both **image** and **video** understanding. See more details on [HERE](eval_mm/seed_bench/EVAL_SEED.md).
+[SEED-Bench](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard) is a multimodal benchmark of 19K multiple-choice questions with accurate human annotations for evaluating Multimodal LLMs, covering 12 evaluation dimensions including both **image** and **video** understanding. See more details on [HERE](eval/seed_bench/EVAL_SEED.md).
 
 Qwen-VL and Qwen-VL-Chat achieve SOTAs on this benchmark.
 
 <p align="center">
-    <img src="eval_mm/seed_bench/leaderboard.jpg"/>
+    <img src="eval/seed_bench/leaderboard.jpg"/>
 <p>
 
 ## Requirements
